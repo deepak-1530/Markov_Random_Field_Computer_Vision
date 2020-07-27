@@ -1,7 +1,6 @@
 # Implement Markov Random Field based image segmentation given initial estimates from a CNN mask
 import numpy as np
 import sys
-sys.path.remove('/opt/ros/kinetic/lib/python2.7/dist-packages')
 import cv2
 import math
 import random
