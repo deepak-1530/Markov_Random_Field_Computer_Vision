@@ -10,5 +10,5 @@
 
 pE = w*(abs(im[k,l] - im[i,j]))**x  (16 point neighbourhood is used)
 
-totalPairWiseEnergy = w1*pE + w2*local_variance + w2*(-log(im[i,j])) (using normalized values in the image)
+totalEnergy (pairWise + unary) = w1*(pE) + w2*(local_variance) + w2*(-log(im[i,j])) (using normalized values in the image)
 
